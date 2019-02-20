@@ -1,6 +1,6 @@
 #include <stdio.h>								//GEBZE TECHNICAL UNIVERSITY 
 #include <stdlib.h>								//NEVZAT SEFEROGLU  171044024 
-#include <string.h> 							//Homework 4
+#include <string.h> 							        //Homework 4
 #define TRUE 1
 #define FALSE 0
 //Functions
@@ -35,7 +35,7 @@ void readFileFunction(FILE *fileP,int *t)
 	FILE *fprint;
 	char idDisplay[]="ID"; 
 	char nameDisplay[]="NAME";
-	char surnameDisplay[]="SURNAME";
+  	char surnameDisplay[]="SURNAME";
 	char mailDisplay[]="MAIL";
 	char control,c;
 	employee *ptr;
